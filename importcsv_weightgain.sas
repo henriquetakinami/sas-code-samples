@@ -1,0 +1,4 @@
+DATA weightgain;
+INFILE "E:\Desktop\Udemy\SAS\Materiais\weightgain.csv" DSD MISSOVER FIRSTOBS=2; /*DSD SE LIVRA DAS ASPASE INTERPRETA ,, ___ MISSOVER VÊ O FINAL DA SÉRIE E O GRAVA___ FIRSTOBS-LINHA QUE COMEÇA A LEITURA*/
+INPUT id source$ type$ weightgain;
+RUN;
